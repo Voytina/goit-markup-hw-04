@@ -25,42 +25,55 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="menu">
-        <a href="./index.html" class="logotype-header"
-          >Web<span>Studio</span></a
-        >
-        <ul>
-          <li><a href="./index.html" class="navigation">Studio</a></li>
-          <li><a href="" class="navigation">Portfolio</a></li>
-          <li><a href="" class="navigation">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="container-header container">
+      <div class="container-div">
+        <nav class="menu">
+          <a href="./index.html" class="logotype-header"
+            >Web<span>Studio</span></a
+          >
+          <ul class="container-list-menu">
+            <li class="item-list-menu">
+              <a href="./index.html" class="navigation">Studio</a>
+            </li>
+            <li class="item-list-menu">
+              <a href="" class="navigation">Portfolio</a>
+            </li>
+            <li class="item-list-menu">
+              <a href="" class="navigation">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="contact-information">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="adress-style"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="adress-style"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address>
+          <ul class="container-list-address">
+            <li class="adress-list">
+              <a href="mailto:info@devstudio.com" class="adress-style"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="adress-list">
+              <a href="tel:+110001111111" class="adress-style"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="section-effective">
-        <h1 class="title-effective">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-section-effective">
-          Order Service
-        </button>
+      <section class="section-effective section">
+        <div class="container container-section-effective">
+          <h1 class="title-effective">Effective Solutions for Your Business</h1>
+          <button
+            type="button"
+            class="button-section-effective button-appearance"
+          >
+            Order Service
+          </button>
+        </div>
       </section>
 
-      <section>
+      <section class="section">
         <h2 hidden>Benefits</h2>
         <ul>
           <li>
@@ -94,7 +107,7 @@
         </ul>
       </section>
 
-      <section class="section-ourteam">
+      <section class="section-ourteam section">
         <h2 class="main-title-ourteam">Our Team</h2>
 
         <ul>
@@ -125,7 +138,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="section">
         <h3 class="mane-title-portfolio">Our Portfolio</h3>
         <ul>
           <li>
