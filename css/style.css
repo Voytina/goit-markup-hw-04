@@ -37,6 +37,8 @@ a {
     line-height: 1.5;
     letter-spacing:0.02em;
     color:#2E2F42;
+
+    padding: 24px 0;
     
 }
 
@@ -265,9 +267,6 @@ img{
 
 .container-header{
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .container{
@@ -284,6 +283,7 @@ img{
 .menu{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 
@@ -295,10 +295,11 @@ img{
 .container-list-address{
     display: flex;
     gap: 40px;
-    padding-left: 332px;
+    
 }
 
-.item-list-menu{
+
+.menu-link{
     padding: 24px 0;
 }
 
@@ -382,6 +383,7 @@ img{
 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-cards-style{
