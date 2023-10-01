@@ -176,7 +176,8 @@ ol {
     max-width: 1440px;
     margin: 0 auto;
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/background-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), 
+    url(../images/background-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,12 +270,11 @@ ol {
 
 .box-icon {
     display: flex;
-     height: 112px;
+    height: 112px;
     max-width: 264px;
     background-color: #F4F4FD;
     border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    padding: 24px 100px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);  
     margin-bottom: 8px;
     align-items: center;
     justify-content: center;
@@ -428,8 +428,6 @@ ol {
 }
 
 .portfolio-cards-style {
-    border: 1px solid #e7e9fc;
-    border-top: none;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
@@ -539,10 +537,9 @@ ol {
 
 .footer-title {
     color: #FFFFFF;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
     margin-bottom: 16px;
 }
